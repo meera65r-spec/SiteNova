@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SiteNova</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background: radial-gradient(circle at top,#2d1b69,#0b0b22);
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav ul li{
+cursor:pointer;
+opacity:0.8;
+}
+
+.get-btn{
+background:#3b82f6;
+padding:10px 18px;
+border-radius:8px;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px;
+}
+
+.hero-text{
+max-width:520px;
+}
+
+.hero h1{
+font-size:52px;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.hero p{
+opacity:0.8;
+margin-bottom:25px;
+}
+
+.cta{
+background:linear-gradient(90deg,#ffb347,#ff7b00);
+border:none;
+padding:14px 26px;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+margin-bottom:20px;
+}
+
+.checks{
+margin-top:10px;
+opacity:0.9;
+}
+
+.checks div{
+margin-top:6px;
+}
+
+/* FEATURES */
+
+.features{
+padding:80px;
+}
+
+.features h2{
+text-align:center;
+font-size:34px;
+margin-bottom:50px;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.feature-box{
+background:rgba(255,255,255,0.05);
+padding:25px;
+border-radius:14px;
+margin-bottom:20px;
+backdrop-filter:blur(10px);
+}
+
+.feature-box h3{
+margin-bottom:8px;
+}
+
+.mock{
+background:#111;
+border-radius:16px;
+padding:20px;
+}
+
+.mock img{
+width:100%;
+border-radius:10px;
+}
+
+/* VIDEOS */
+
+.videos{
+padding:80px;
+}
+
+.videos h2{
+text-align:center;
+font-size:32px;
+margin-bottom:40px;
+}
+
+.video-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.video{
+background:#111;
+border-radius:12px;
+overflow:hidden;
+}
+
+.video img{
+width:100%;
+display:block;
+}
+
+footer{
+text-align:center;
+padding:40px;
+opacity:0.6;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+gap:40px;
+padding:40px;
+}
+
+.feature-grid{
+grid-template-columns:1fr;
+}
+
+.video-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<div class="logo">SiteNova</div>
+
+<ul>
+<li>Pricing</li>
+<li>Templates</li>
+<li>Blog</li>
+<li>Explore</li>
+</ul>
+
+<div class="get-btn">Get Started</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Launch Your Website Today with 85% Off</h1>
+
+<p>Build, host, and grow online for just $1.99/month + 3 months free</p>
+
+<button class="cta">Claim the Deal</button>
+
+<div class="checks">
+<div>✔ 80% off | Only $1.99/mo</div>
+<div>✔ 30-day money-back guarantee</div>
+</div>
+
+</div>
+
+<div class="hero-image">
+<img src="https://images.unsplash.com/photo-1553877522-43269d4ea984" width="450">
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+
+<h2>Save Time — Generate Your Website with AI</h2>
+
+<div class="feature-grid">
+
+<div>
+
+<div class="feature-box">
+<h3>⚡ Instantly Generate</h3>
+<p>Use advanced AI to build an entire website based on your needs.</p>
+</div>
+
+<div class="feature-box">
+<h3>🎨 Customize Easily</h3>
+<p>Edit text and images, change designs with a drag-and-drop editor.</p>
+</div>
+
+<div class="feature-box">
+<h3>🚀 Launch Quickly</h3>
+<p>Get a free subdomain and host your site with one click.</p>
+</div>
+
+</div>
+
+<div class="mock">
+<img src="https://images.unsplash.com/photo-1547658719-da2b51169166">
+</div>
+
+</div>
+
+</section>
+
+<!-- VIDEOS -->
+
+<section class="videos">
+
+<h2>Learn to Build Websites with AI</h2>
+
+<div class="video-grid">
+
+<div class="video">
+<img src="https://img.youtube.com/vi/UB1O30fR-EE/maxresdefault.jpg">
+</div>
+
+<div class="video">
+<img src="https://img.youtube.com/vi/3JluqTojuME/maxresdefault.jpg">
+</div>
+
+<div class="video">
+<img src="https://img.youtube.com/vi/PkZNo7MFNFg/maxresdefault.jpg">
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2028 SiteNova | AI Website Generator
+</footer>
+
+</body>
+</html>
